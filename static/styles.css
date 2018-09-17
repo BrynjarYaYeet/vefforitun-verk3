@@ -1,0 +1,22 @@
+body{
+	max-width: 50em;
+	border: 1px solid red;	
+	margin: 0 auto;
+}
+.row{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.row section{
+	border: 1px solid blue;
+}
+header, footer{
+	border: 3px solid green;
+	padding: 1em;
+}
+img{
+	width: 100%;
+}
+.pd2{
+	padding-left: 2em;
+}
