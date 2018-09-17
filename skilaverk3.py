@@ -1,4 +1,4 @@
-#from sys import argv
+from sys import argv
 
 import bottle
 from bottle import *
@@ -46,4 +46,4 @@ def villa(error):
         <h2 style='color:red'>Þessi síða finnst ekki </h2>
     """
 
-run(host="localhost", port=8070, reloader=True, debug=True)
+#run(host="localhost", port=8070, reloader=True, debug=True)
