@@ -47,3 +47,5 @@ def villa(error):
     """
 
 #run(host="localhost", port=8070, reloader=True, debug=True)
+
+run(host='0.0.0.0', port=argv[1])
